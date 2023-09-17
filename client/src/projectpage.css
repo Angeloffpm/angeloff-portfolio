@@ -1,0 +1,32 @@
+/* Projects Page */
+
+.projects-header {
+    text-align: center;
+    padding: 40px;
+    font-size: 75px;
+}
+
+.project-card {
+    background: white !important;
+    width: 80%;
+}
+
+.card-Title {
+    color: black;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.card-Description {
+    color: black;
+    padding: 5px;
+}
+
+.projectmodal-title {
+    padding-left: 7px;
+
+}
+
+.projectmodal-image {
+    width: 100%;
+}

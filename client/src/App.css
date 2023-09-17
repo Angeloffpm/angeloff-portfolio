@@ -1,0 +1,89 @@
+.App {
+  background: rgb(0, 48, 70);
+  color: white;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #282c34;
+  color: gray;
+  height: 75px;
+  border-bottom: 3px solid cyan;
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  color: white !important;
+}
+
+/* ======== */
+
+/* Home Page */
+
+.aboutme-header {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 75px;
+}
+
+.central-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.headshot {
+  height: 500px;
+  box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.headshot.show {
+  opacity: 1;
+}
+
+.bio {
+  font-family:Arial, Helvetica, sans-serif, Courier, monospace;
+  font-size: larger;
+  white-space: pre-wrap;
+  word-wrap: normal;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.bio.show {
+  opacity: 1;
+}
+
+.skillsh1 {
+  text-align: center;
+  padding-top: 100px;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.skillsh1.show {
+  opacity: 1;
+}
+
+.skills-list {
+  font-size: 250%;
+}
+
+.skills-image {
+  width: 95%;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.skills-image.show {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

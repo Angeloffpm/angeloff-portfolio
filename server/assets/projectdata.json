@@ -1,0 +1,25 @@
+{
+    "project": [
+        {
+            "title": "Children's Hospital Tracheostomy Simulator",
+            "image": "trachsim",
+            "description": "Sponsored by the Children's Hospital of Colorado, I was a part of a team tasked with the completion of a 3D interactive Tracheostomy procedure simulator. Tackling the project using Agile methodologies, we developed in the Unity game engine using C# scripting.",
+            "skills": "C#, Unity, Agile Methodologies",
+            "github": "https://github.com/davis-cohen-3/capstone_proj/tree/main/submissons/TrachSim-1-master"
+        },
+        {
+            "title": "Firework Sandbox Game",
+            "image": "cannongame",
+            "description": "As a final project for my Computer Graphics course, I built a firework sandbox minigame where the player can choose a color and shoot fireworks in an open carnival-themed environment. The game was developed using C programming and the OpenGL library and features lighting and particle effects in a custom 3D environment.",
+            "skills": "C, OpenGL, Computer Graphics",
+            "github": "https://github.com/Angeloffpm/FireworkSandbox"
+        },
+        {
+            "title": "Custom Connect-4 Game",
+            "image": "connect4",
+            "description": "The classic Connect 4 board game with an added twist. Developed using the Qt framework and the C++ language, recreated Connect 4 with added bonus powerups that allow players to destroy entire rows, columns, or 3x3 squares in one turn.",
+            "skills": "C++, Qt Framework",
+            "github": null
+        }
+    ]
+}
